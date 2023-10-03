@@ -18,17 +18,17 @@
         <nav>
          <ul>
              <li>
-                 <a href="#">Sobre a loja</a>
+                 <a href="#about">Sobre a loja</a>
              </li>
              <li>
-                 <a href="#">Contato</a>
+                 <a href="#contact">Contato</a>
              </li>
          
          </ul>
         </nav>
       </div>
     </header>
-    <section>
+    <section id="about">
         <div class="container">
         <img class="store-front" src="./images/loja.jpg" alt="Fachada Game Shop"/>
         <div>
@@ -47,7 +47,49 @@
         </div>
       
     </div>
-
-    </section>
+   </section>
+   <section id="contact">
+    <div class="container">
+        <h2>Contato</h2>
+        <div class="contact-methods">
+            <div>
+                <h3>Fale conosco</h3>
+                <form action="">
+                    <input type="text" placeholder="Seu nome" required/>
+                    <input type="email" placeholder="Seu E-mail "required/>
+                    <input type="tel" placeholder="Seu Telefone (opicional)"/>
+                    <textarea placeholder="Sua mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div>
+                <h3>Nos acompanhe</h3>
+                <ul class="social-links  ">
+                    <li>
+                        <a href="#" title="Siganos no Instagran">
+                            <img src="./images/instagram.png" alt="logo do instagram"></a>
+                    </li>
+                    <li>
+                        <a href="#" title="Siganos no facebook">
+                            <img src="./images/facebook.png" alt="logo do facebook"></a>
+                    </li>
+                    <li>
+                        <a href="#" title="Visite nosso canal no youtube">
+                            <img src="./images/youtube.png" alt="logo do youtube"></a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Venha até nós </h3>
+                <p>Rua javaScript nº124, Vila HTML-São Paulo-SP</p>
+            </div>
+        </div>
+    </div>
+   </section>
+    <footer>
+        <div class="container">
+            <p>&copy; Game Shope - Todos os direitos reservados - 2023 </p>
+        </div>
+    </footer>
 </body>
 </html>
