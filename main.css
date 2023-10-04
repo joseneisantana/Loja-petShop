@@ -170,3 +170,8 @@ h1{
     display: flex;
     margin: 10px;
 }
+
+li:hover{
+    background-color:black;
+    border-radius: 10px;
+}
