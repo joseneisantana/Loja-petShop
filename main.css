@@ -2,26 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    
 
 }
 header,
 section h2,
 section h3,
 form button{
-    font-family: 'Bungee', cursive;
+    font-family: 'Mooli', sans-serif;
     font-weight: normal;
+    
     
 }
 body, input, textarea{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    background-color: #fcffef;
+   
 }
 
 header{
     padding: 16px 0;
-    background-color: #ffa500;
+    background-color:#00a86b; /*#ffa500;*/
     color: #ecf0f1;
+   border:1px solid  #000000;
     
 }
+
 
 
 header nav li{
@@ -69,7 +75,7 @@ section h2{
 }
 
 section{
-    color: #182c61;
+    color: #000000;
 }
 section p{
     margin-bottom: 8px;
@@ -79,6 +85,8 @@ section p{
 .store-front{
     margin-right: 32px;
     width: 660px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 1px 1px #000000;
     
 }
  .social-links img{
@@ -109,6 +117,7 @@ section p{
     width: 320px;
     margin-bottom: 8px;
     padding: 8px;
+  
  }
 
  form textarea{
@@ -122,7 +131,7 @@ section h3 {
 }
 
 form button{
-    background-color:#182c61 ;
+    background-color:#00a86b ;
     color: #ecf0f1;
     border: none;
     cursor: pointer;
@@ -130,7 +139,8 @@ form button{
     
 }
 form button:hover{
-    background-color:#314e9e ;
+    background-color:#73d6b2 ;
+    
 }
 
 input:focus, textarea:focus{
@@ -138,7 +148,25 @@ input:focus, textarea:focus{
 }
 
 footer{
-    background-color: #182c61;
+    background-color:#00a86b;
+    
     color: #ecf0f1;
     padding: 16px 0;
+    font-weight: bold;
+}
+h1{
+  
+  
+ color: white; text-shadow: black 0.1em 0.1em 0.2em
+       
+}
+
+.logo{
+   height: 50px;
+   padding-left: 0;
+}
+
+.teste{
+    display: flex;
+    margin: 10px;
 }
